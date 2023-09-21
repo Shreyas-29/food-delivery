@@ -1,0 +1,8 @@
+Here are some steps to help you deploy your app:
+
+1. npm install --global eas-cli
+2. eas login
+3. npx expo install expo-updates
+4. eas update:configure
+5. eas build:configure
+6. eas build -p android --profile preview
